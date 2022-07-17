@@ -1,0 +1,22 @@
+.post-container{
+    background-color:#fffafa;
+    width: 70%;
+    margin: auto ;
+}
+
+.date {
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#008080;
+}
+
+.post-content{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.post{
+    margin: 40px;
+}

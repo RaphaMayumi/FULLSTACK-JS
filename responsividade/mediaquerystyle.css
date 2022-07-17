@@ -1,0 +1,25 @@
+.img-content {
+    width: 765px;
+    height: 400px;
+}
+
+.text-content {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 2560px) and (min-width: 1440px) { /* modificações acontecem dentro destas resoluções, tamanho maior da tela sempre vem primeiro na sequencia do código */
+    
+}
+@media (max-width: 795px){ /*modificações que acontecem quando o tamanho da tela fica em 795px para baixo*/
+    body{
+        background-color: black;
+        color: white;
+    }
+    .img-content {
+        width: 90%;
+        height: auto;
+    }
+    .text-content {
+        font-size: 16pt;
+    }
+}

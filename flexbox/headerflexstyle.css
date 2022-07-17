@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.icone img{
+    height: 50px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap:10px 10px;
+}
+
+.item{ /* botão */
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.item:hover{
+    border-color:#ff0044;
+}
